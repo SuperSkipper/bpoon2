@@ -32,7 +32,7 @@ const home = props => {
             </div>
             <div id="home-container-right">
                 <ul>
-                    <li>About Me</li>
+                    <li><a href="./about">About Me</a></li>
                     <li>My Resume</li>
                     <li>Personal Projects</li>
                     <li>Contact Me</li>
