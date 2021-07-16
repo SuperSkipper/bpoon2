@@ -5,18 +5,18 @@ import linkedin from '../assets/images/linkedin.png'
 import soundcloud from '../assets/images/soundcloud-black.png'
 const home = props => {
     return (
-        <div id="main-container">
-            <div id="container-left">
-                <div id="container-top-left">
+        <div id="home-main-container">
+            <div id="home-container-left">
+                <div id="home-container-top-left">
                     <span>
                         <img className='logo' src= {logo} alt = 'Ben Signature'></img>
                     </span>
-                    <div id= "header">
+                    <div id= "home-header">
                         <h1>Hi there, I'm Ben.</h1>
                         <h1>A pleasure to meet you.</h1>
                     </div>
                 </div>
-                <div id="container-bottom-left">
+                <div id="home-container-bottom-left">
                     <ul>
                         <li>
                             <img src={github} alt='GitHub' className="social"></img>
@@ -30,7 +30,7 @@ const home = props => {
                     </ul>
                 </div>
             </div>
-            <div id="container-right">
+            <div id="home-container-right">
                 <ul>
                     <li>About Me</li>
                     <li>My Resume</li>

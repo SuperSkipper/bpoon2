@@ -5,7 +5,7 @@ const home = props => {
             <div id="container-left">
                 <div id="container-top-left">
                     <div>
-                        <button>TEst</button>
+                        <button>Return</button>
                         <h1>Hi there, I'm Ben</h1>
                         <p>
                         Nice to meet you! I’m a student at the Universty of Georgia studying computer science and business management with an emphasis on human resources. 
