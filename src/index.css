@@ -1,8 +1,129 @@
 * { margin: 0; padding: 0; }
 
+h1{
+  font-family: "Modern";
+  font-size: 500%;
+  font-weight: 50;
+}
+
+h2{
+  font-family: "Modern";
+  font-size: 400%;
+  font-weight: 50;
+}
+
+p{
+  font-size: 125%;
+}
+
+
 @font-face {
   font-family: 'Modern';
   src: url('./assets/fonts/Modern\ No.\ 20.ttf');
   font-style: normal;
   font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Bell MT';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bell MT W01'), local('BellMT'), url(http://themes.googleusercontent.com/licensed/font?kit=kmIaTfxu8bXVwPRMqRVUug) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+.hilight{
+  color: #A91212;
+}
+
+.block-text{
+  text-indent: 5%;
+}
+
+.vertical-center{
+  justify-content: center;
+}
+
+.horizontal-center{
+  align-items: center;
+}
+
+.center{
+  align-items: center;
+  justify-content: center;
+}
+
+.full-width{
+  width:100%;
+}
+
+.three-quarters-width{
+  width:75%;
+}
+
+.two-thirds-width{
+  width:calc(100% / 3 * 2);
+}
+
+.half-width{
+  width:50%;
+}
+
+.third-width{
+  width:calc(100% / 3);
+}
+
+.quarter-width{
+  width:25%;
+}
+
+.eighty-percent-height{
+  height:80%;
+}
+
+.ninety-percent-height{
+  height:90%;
+}
+
+.fill-space{
+  flex-grow: 1;
+}
+
+.logo{
+  width: 10vw;
+  height: auto;
+  text-align: left;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #181818;
+}
+
+.container-left{
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F3EE;
+}
+
+.container-top-left{
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F3EE;
+}
+
+.container-bottom-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8A817C;
+}
+
+.container-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
