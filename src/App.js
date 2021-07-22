@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom'
 function App() {
   return (
     <Router>
-      <Route path="/home">
+      <Route path="/" exact>
         <Home/>
       </Route>
       <Route path="/about">

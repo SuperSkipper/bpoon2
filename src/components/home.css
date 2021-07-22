@@ -4,6 +4,7 @@
 }
 
 #home-header{
+    font-family: "Modern";
     display:flex;
     flex-direction: column;
     flex-grow: 1;
