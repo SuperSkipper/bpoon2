@@ -1,11 +1,13 @@
 import './about.css'
+import ben from "../assets/images/Ben.png"
+import sig from "../assets/images/White Signature.png"
 const about = props => {
     return (
         <div className="main-container">
             <div className="container-left three-quarters-width">
-                <div id="about-content" className="container-top-left ninety-percent-height vertical-center">
+                <div id="about-content" className="container-top-left ninety-five-percent-height vertical-center">
                     <div className="half-width">
-                        <a href="./">Return</a>
+                        <a href="./" className="return">Return</a>
                         <h1>Hi there, I'm <span className="hilight">Ben.</span></h1>
                         <p className="block-text">
                         Nice to meet you! I’m a student at the Universty of Georgia studying computer science and business management with an emphasis on human resources. 
@@ -19,12 +21,12 @@ const about = props => {
                         </p>
                     </div>
                 </div>
-                <div className="container-bottom-left third-width">
-                   
+                <div className="container-bottom-left half-width fill-space">
                 </div>
             </div>
             <div className="container-right">
-               
+                <img src={ben} id="about-photo" alt="Ben"></img>
+                <img src={sig} alt="signature" className="white-logo"></img>
             </div>
         </div>
         

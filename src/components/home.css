@@ -1,5 +1,4 @@
 #home-header{
-    
     display:flex;
     flex-direction: column;
     flex-grow: 1;
@@ -8,12 +7,20 @@
 #home-socials > li{
     list-style-type: none;
     display: inline;
-    margin: 5vw;
 }
 
 #home-socials > li > img{
     width: 8vh;
     height: auto;
+    border-left: 2px solid black;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#home-socials > li:first-of-type > img{
+    border-left: none;
 }
 
 #nav > li{
@@ -26,3 +33,12 @@
     font-size: 200%;
     font-weight: 300;
 }
+
+#nav > li > a:visited, a:link{
+    color: #F4F3EE;
+}
+
+#nav > li > a:before{
+    background-color: white;
+}
+

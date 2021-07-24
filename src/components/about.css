@@ -1,3 +1,16 @@
 #about-content{
     margin-left: 10%;
 }
+
+#about-content h1{
+    margin-top: 10%;
+}
+
+#about-photo{
+    margin-top: auto;
+    position: relative;
+    right: 40%;
+    width:30vw;
+}
+
+

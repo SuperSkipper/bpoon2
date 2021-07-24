@@ -33,9 +33,9 @@ const home = props => {
             <div className="container-right">
                 <ul id="nav">
                     <li><a href="./about">About Me</a></li>
-                    <li>My Resume</li>
-                    <li>Personal Projects</li>
-                    <li>Contact Me</li>
+                    <li><a href="./resume">My Resume</a></li>
+                    <li><a href="./projects">Personal Projects</a></li>
+                    <li><a href="./contact">Contact Me</a></li>
                 </ul>
             </div>
         </div>
