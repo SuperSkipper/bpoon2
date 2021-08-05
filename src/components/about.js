@@ -21,7 +21,7 @@ const about = props => {
                         </p>
                     </div>
                 </div>
-                <div className="container-bottom-left half-width fill-space">
+                <div className="container-bottom-left quarter-width fill-space">
                 </div>
             </div>
             <div className="container-right">

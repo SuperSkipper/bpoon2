@@ -1,0 +1,13 @@
+#resume-content{
+    margin-left: 10%;
+}
+
+#resume-content > div > ul > li{
+    margin-top: 5vh;
+}
+
+#resume{
+    margin-top: 4vh;
+    width: 45%;
+    height: auto;
+}

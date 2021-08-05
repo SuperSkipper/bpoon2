@@ -2,13 +2,14 @@
 
 h1{
   font-family: "Modern";
-  font-size: 500%;
+  font-size: 4vw;
   font-weight: 50;
+  text-align: center;
 }
 
 h2{
   font-family: "Modern";
-  font-size: 400%;
+  font-size: 3vw;
   font-weight: 50;
 }
 
@@ -16,7 +17,14 @@ p{
   font-size: 125%;
 }
 
+li{
+  list-style-type: none;
+}
+
 a, a:visited{
+  font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+  font-weight: 300;
   position: relative;
   text-decoration: none;
 }
@@ -38,6 +46,10 @@ a::before {
   transition: transform 0.3s ease;
 }
 
+.return{
+  color: black;
+}
+
 @font-face {
   font-family: 'Modern';
   src: url('./assets/fonts/Modern\ No.\ 20.ttf');
@@ -53,6 +65,10 @@ a::before {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+.test{
+  background-color: red;
+}
 
 .hilight{
   color: #A91212;
@@ -73,6 +89,10 @@ a::before {
 .center{
   align-items: center;
   justify-content: center;
+}
+
+.center-text{
+  text-align: center;
 }
 
 /* width and height stuff starts here*/
@@ -127,13 +147,6 @@ a::before {
   height: auto;
   margin-top: auto;
   align-self: flex-end;
-}
-
-.return{
-  color: black;
-  font-family: 'Roboto', sans-serif;
-  font-size: 200%;
-  font-weight: 300;
 }
 
 .return:before{

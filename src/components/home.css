@@ -27,11 +27,7 @@
     margin-left: 2vw;
     margin-top: 8vh;
     margin-bottom: 8vh;
-    list-style-type: none;
     color: #F4F3EE;
-    font-family: 'Roboto', sans-serif;
-    font-size: 200%;
-    font-weight: 300;
 }
 
 #nav > li > a:visited, a:link{
